@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background: #a7c1de; /* Header color */
+    color: rgb(8, 8, 8);
+    padding: 20px 0;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+}
+
+nav {
+    background: #3c5167;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.cv-card {
+    text-align: center;
+}
+
+.cv-card .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cv-card .btn:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3c5167;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
